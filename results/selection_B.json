@@ -1,0 +1,120 @@
+{
+  "2": {
+    "ELM-ELM": {
+      "loop": {
+        "G": 5,
+        "NS": 10
+      },
+      "model": {
+        "C": 1.0,
+        "act": "multiquadric",
+        "nh_factor": 2
+      }
+    },
+    "ELM-KRG": {
+      "loop": {
+        "G": 10,
+        "NS": 10
+      },
+      "model": null
+    },
+    "ELM-RBF": {
+      "loop": {
+        "G": 5,
+        "NS": 10
+      },
+      "model": null
+    },
+    "KRVEA": {
+      "loop": {
+        "G": 20,
+        "NS": 10
+      },
+      "model": null
+    },
+    "SSA-ELM": {
+      "loop": {
+        "G": 10,
+        "NS": 10
+      },
+      "model": {
+        "C": 1.0,
+        "act": "multiquadric",
+        "nh_factor": 2
+      }
+    },
+    "SSA-KRG": {
+      "loop": {
+        "G": 10,
+        "NS": 5
+      },
+      "model": null
+    },
+    "SSA-RBF": {
+      "loop": {
+        "G": 20,
+        "NS": 5
+      },
+      "model": null
+    }
+  },
+  "3": {
+    "ELM-ELM": {
+      "loop": {
+        "G": 5,
+        "NS": 10
+      },
+      "model": {
+        "C": 32.0,
+        "act": "sigmoid",
+        "nh_factor": 8
+      }
+    },
+    "ELM-KRG": {
+      "loop": {
+        "G": 20,
+        "NS": 10
+      },
+      "model": null
+    },
+    "ELM-RBF": {
+      "loop": {
+        "G": 5,
+        "NS": 10
+      },
+      "model": null
+    },
+    "KRVEA": {
+      "loop": {
+        "G": 20,
+        "NS": 10
+      },
+      "model": null
+    },
+    "SSA-ELM": {
+      "loop": {
+        "G": 5,
+        "NS": 10
+      },
+      "model": {
+        "C": 1024.0,
+        "act": "multiquadric",
+        "nh_factor": 8
+      }
+    },
+    "SSA-KRG": {
+      "loop": {
+        "G": 20,
+        "NS": 5
+      },
+      "model": null
+    },
+    "SSA-RBF": {
+      "loop": {
+        "G": 5,
+        "NS": 5
+      },
+      "model": null
+    }
+  }
+}

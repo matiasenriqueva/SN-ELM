@@ -1,0 +1,26 @@
+{
+  "2": [
+    {
+      "C": 1.0,
+      "act": "multiquadric",
+      "nh_factor": 2
+    },
+    {
+      "C": 1.0,
+      "act": "multiquadric",
+      "nh_factor": 4
+    }
+  ],
+  "3": [
+    {
+      "C": 1024.0,
+      "act": "multiquadric",
+      "nh_factor": 8
+    },
+    {
+      "C": 32.0,
+      "act": "sigmoid",
+      "nh_factor": 8
+    }
+  ]
+}

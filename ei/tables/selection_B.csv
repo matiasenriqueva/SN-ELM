@@ -1,0 +1,13 @@
+M,variant,G,NS,model
+2,SN-ELM,5,10,"{'C': 1.0, 'act': 'multiquadric', 'nh_factor': 2}"
+2,SN-KRG,10,10,
+2,SN-RBF,5,10,
+2,KRVEA,20,10,
+2,SSA-ELM,10,10,"{'C': 1.0, 'act': 'multiquadric', 'nh_factor': 2}"
+2,SSA-KRG,10,5,
+3,SN-ELM,5,10,"{'C': 32.0, 'act': 'sigmoid', 'nh_factor': 8}"
+3,SN-KRG,20,10,
+3,SN-RBF,5,10,
+3,KRVEA,20,10,
+3,SSA-ELM,5,10,"{'C': 1024.0, 'act': 'multiquadric', 'nh_factor': 8}"
+3,SSA-KRG,20,5,
